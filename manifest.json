@@ -1,0 +1,20 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "manifest_version": 3,
+	"name": "Funion Jump",
+	"description": "Funion Themed Infinite Jumper",
+	"version": "3.3",
+	"icons": {
+		"16": "icon-16.png",
+		"128": "icon-128.png",
+		"256": "icon-256.png"
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+	"permissions": [
+        "storage",
+        "unlimitedStorage"
+        ]
+}
